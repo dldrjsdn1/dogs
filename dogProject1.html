@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<link rel="stylesheet" href="dogProject1.css">
+  <head>
+    <meta charset="utf-8">
+    <title>개발자들 컨텐츠 홈페이지</title>
+  </head>
+  <script src="https://api2.sktelecom.com/tmap/js?version=1&format=javascript&appKey=ef70eee4-419b-4052-833f-07e3107264c3"></script>
+      <script type="text/javascript">
+    function initTmap(){
+      var map = new Tmap.Map({
+        div:'map_div',
+        width : "100%",
+        height : "50vh"
+      });
+      markerLayer = new Tmap.Layer.Markers();
+      map.addLayer(markerLayer);
+
+      var lonlat = new Tmap.LonLat(126.825330, 37.487257).transform("EPSG:4326", "EPSG:3857");
+      map.setCenter(new Tmap.LonLat(126.825330, 37.487257).transform("EPSG:4326", "EPSG:3857"), 15);
+      var size = new Tmap.Size(24, 38);
+      var offset = new Tmap.Pixel(-(size.w / 2), -(size.h));
+      var icon = new Tmap.Icon('http://tmapapis.sktelecom.com/upload/tmap/marker/pin_b_m_a.png',size, offset);
+
+      marker = new Tmap.Marker(lonlat, icon);
+      markerLayer.addMarker(marker);
+
+    }
+  </script>
+  <body onload="initTmap()">
+  <div>
+
+  <div>
+    <section class="Circle_page">
+      <figure class="snip1432">
+      <img class="Circle_page_img" src="개발자들 컨텐츠 웹 이미지\개발자들.png" alt="개발자들 홈페이지 이미지">
+      <figcaption>
+        <div>
+          <h3></h3>
+          <h3>DESIGN BY 개발자들</h3>
+        </div>
+      </figcaption>
+      <a href="https://devdogs.kr/"></a>
+        </figure>
+    </section>
+  </div>
+
+
+
+  <div>
+    <section class="Circles_Info_page">
+      <article>
+        <div class="dog_index2">
+        <img class="dogsize" src="개발자들 컨텐츠 웹 이미지\개발자들_마크 copy.png" alt="개발자들 로고 이미지";>
+      </div>
+      <div class="Circles_text1">
+        <h1>Circles</h1>
+      </div>
+      <div class="Circles_text2">
+        <p><strong>#성공회대 정규 동아리</strong></p>
+        <p><strong>#웹개발 #앱개발</strong></p>
+        <p><strong>#오픈소스활동#내부프로젝트</strong></p>
+        <p><strong>#수익활동#내부컨퍼런</strong></p>
+      </div>
+      </article>
+      <div class="index1">
+        <img  class="pinkLine" src="개발자들 컨텐츠 웹 이미지\배경1.png" alt="개발자들 소개 대각선 이미지"; >
+      </div>
+    </section>
+  </div>
+
+  <div>
+    <section class="Contents_Info_page">
+      <div class="Contents_text1">
+        <h1>CONTENTS</h1>
+      </div>
+      <div class="Contents_text2">
+        <p><strong>Kim Hayeon</strong></p>
+        <p><strong>Whang Yugyeong</strong></p>
+        <p><strong>Lee Geonu</strong></p>
+        <p><strong>Park Mujae</strong></p>
+      </div>
+      <div class="mint_index">
+        <img  class="mintLine" src="개발자들 컨텐츠 웹 이미지\배경2.png" alt="개발자들 컨텐츠 제작 인원소개 대각선 이미지"; >
+      </div>
+    </section>
+  </div>
+
+  <div>
+    <section class="kim_page">
+      <figure class="snip1432">
+      <img class="kim_page_img" src="개발자들 컨텐츠 웹 이미지\그림.JPG" alt="김하연님 홈페이지 이미지">
+      <figcaption>
+        <div>
+          <h3></h3>
+          <h3>FREE IMAGE SOURCE<br>
+          DESIGN BY Kim Hayeon</h3>
+        </div>
+      </figcaption>
+    </figure>
+    <a href=""></a>
+    </section>
+  </div>
+
+  <div>
+    <section class="hwang_page">
+      <figure class="snip1432">
+        <img class="hwang_page_img" src="개발자들 컨텐츠 웹 이미지\여행.JPG" alt="김하연님 홈페이지 이미지">
+        <figcaption>
+          <div>
+            <h3></h3>
+            <h3>Travel<BR>
+              DESIGN BY Whang Yugyeong</h3>
+          </div>
+        </figcaption>
+      </figure>
+      <a href=""></a>
+    </section>
+  </div>
+
+  <div>
+    <section class="lee_page">
+      <figure class="snip1432">
+      <img class="lee_page_img" src="개발자들 컨텐츠 웹 이미지\s3d.png" alt="이건우님 홈페이지 이미지">
+        <figcaption>
+          <div>
+            <h3></h3>
+            <h3>3D PRINTING GUIDE<BR>
+              DESIGN BY Lee Geonu</h3>
+          </div>
+        </figcaption>
+        <a href="mypage.html"></a>
+        </figure>
+    </section>
+  </div>
+
+  <div>
+    <section class="park_page">
+      <figure class="snip1432">
+      <article>
+        <img class="park_page_img" src="개발자들 컨텐츠 웹 이미지\성공회대 도서관 이미지.png" alt="박무재님 홈페이지 이미지">
+        <figcaption>
+          <div>
+            <h3></h3>
+            <h3>SKHU CENTRAL LIBRARY<BR>
+              DESIGN BY Park Mujae</h3>
+          </div>
+        </figcaption>
+      </article>
+      </figure>
+      <a href=""></a>
+    </section>
+  </div>
+
+  <div>
+    <section class="map_page">
+      <div id="map_div">
+      </div>
+    </section>
+  </div>
+
+  <div>
+    <section class="Circle_end_Info_page">
+      <article class="end_dog_mark">
+        <img class="end_dog_mark_size" src="개발자들 컨텐츠 웹 이미지\pink_dog.png" alt="분홍색 개발자들 마크">
+      </article>
+
+      <article class="end_text">
+        <p><strong>성공회대학교</strong></p>
+        <p><strong>37.487496, 126.825331</strong></p>
+        <p><strong>서울특별시 구로구 연동로 320</strong></p>
+        <p><strong>서울특별시 구로구 항동 1-1</strong></p>
+        <p><strong>02-2610-4114</strong></p>
+        <p><strong>www.skhu.ac.kr/</strong></p>
+      </article>
+
+
+      <article class="end_Circle_text">
+        <p><strong>SungKongHoe University</strong></p>
+        <p><strong>Software Development</strong></p>
+        <p><strong>Circle 개발자들</strong></p>
+      </article>
+
+      <article class="copyright_text">
+        <p><strong>Copyright(C) 2018.개발자들.All rights reserved.</strong></p>
+      </article>
+
+    </section>
+  </div>
+
+  </div>
+
+
+
+  </body>
+</html>

@@ -1,0 +1,128 @@
+header{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+body{
+  background-color: #8A0808;
+}
+.topMenu {
+  width: 100%;
+  height: 30px;
+}
+.topMenu div > ul > li {
+  list-style: none;
+  color: white;
+  background-color: black;
+  float: left;
+  line-height: 40px;
+  width: auto;
+  vertical-align: middle;
+  text-align: center;
+}
+.menuLink {
+  text-decoration: none;
+  color: white;
+  display: block;
+  width: 200px;
+  font-size: 15px;
+  font-weight: blod;
+  font-family: "Trebuchet MS", Dotum, Arial;
+}
+.menuLink:hover {
+  color: red;
+  background-color: #4d4d4d;
+}
+.menuinput{
+  border: 3px solid black;
+  font-size: 19px;
+  width: 400px;
+  padding: 6px ;
+  border: 1px
+  outline: none;
+  float: left;
+}
+.img{
+  border: 3px solid black;
+  height: 600px;
+  width: 100%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.movie{
+  border: 2px solid black;
+  height: 400px;
+  width: 300px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 90px;
+  float: left;
+}
+.movieimg{
+  width: 100%;
+  height: 200px;
+}
+.text{
+  position: absolute;
+  top: 570px;
+  left: 100px;
+  width: 1000px;
+  color: white;
+}
+.text1{
+  text-align: center;
+  position: absolute;
+  font-size: 12px;
+  margin-left: 80px;
+  color: white;
+}
+.text2{
+  text-align: center;
+  position: absolute;
+  font-size: 12px;
+  margin-left: 35px;
+  color: white;
+}
+.text3{
+  text-align: center;
+  position: absolute;
+  font-size: 12px;
+  margin-left: 20px;
+  color: white;
+}
+.buttonlotation{
+  margin-top: 45%;
+  margin-left: 25%;
+}
+.button{
+  background-color: #8A0808;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 8px;
+  border: 2px solid black;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  width: 70%;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button:hover{
+  background-color: black;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+footer{
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background: black;
+  color: white;
+  margin-top: 500px;
+}

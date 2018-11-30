@@ -1,0 +1,43 @@
+
+.myintro{
+  width: 30%;
+height: 50vh;
+float: left;
+background-color: #fe9fa3;
+}
+.Advertising  {
+  width: 70%;
+height: 50vh;
+float: left;
+background-color: #5b090c;
+}
+.s3d_homepage{
+  width: 25%;
+height: 50vh;
+float: left;
+background-color: #463e3e;
+}
+.s3d_cafe{
+  width: 25%;
+height: 50vh;
+float: left;
+background-color: #46292b;
+}
+.Contents_index {
+  width: 50%;
+height: 100vh;
+float: left;
+background-color: #4d1013;
+}
+.use{
+  width: 25%;
+height: 50vh;
+float: left;
+background-color: #a3161c;
+}
+.thing  {
+  width: 25%;
+  height: 50vh;
+  float: left;
+  background-color: #f35d64;
+}

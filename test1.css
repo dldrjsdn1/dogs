@@ -1,0 +1,56 @@
+header{
+  font-family: cursive;
+  width: 100%;
+  height: 30%;
+  color: yellow;
+  font-size: 30px;
+}
+
+h1{
+  text-align: center;
+}
+
+.section_img{
+  width: 100%;
+}
+
+.section_p{
+  padding: 10px;
+  color: white;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-image: url('https://t1.daumcdn.net/cfile/tistory/25236C355870857E23');
+}
+
+.article_img{
+  height: 400px;
+  width: 300px;
+}
+
+.article_p{
+  text-align: center;
+  width: 300px;
+  margin: auto;
+}
+
+.article{
+  font-size: 20px;
+  width: 33%;
+  float: left;
+  margin-top: 20px;
+}
+
+body{
+  text-align: center;
+}
+
+footer{
+  padding-top: 50px;
+  color: white;
+  height: 70px;
+  background-color: black;
+}
+section{
+  height: 1000px;
+}
