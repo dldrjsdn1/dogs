@@ -1,0 +1,48 @@
+header{
+  text-align: center;
+  color:#ffa500;
+}
+
+section{
+  height:1200px:
+  margin:auto;
+}
+
+.body{
+  height:600px;
+  width:30%;
+  margin-left: 20%;
+  float:left;
+}
+
+.img_body{
+  height:600px;
+}
+
+img{
+  height:300px;
+  width:100%;
+}
+
+.handAndFeet{
+  height:300px;
+  width:35%;
+  float:left;
+}
+
+.etc{
+  height:300px;
+  width:35%;
+  float:left;
+}
+
+footer{
+  float:left;
+  height: 80px;
+  width:100%;
+  margin-top: 15%;
+  margin-bottom: -70%;
+  background:#ffebae;
+  color: #ffa500;
+  text-align: center;
+}

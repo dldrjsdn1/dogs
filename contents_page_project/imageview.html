@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Quad Image Gallery</title>
+      <style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      body {
+  font-family: Avenir, sans-serif; margin: 0;
+  background-color: #121;
+}
+div#quad {
+  background-color: #000;
+  font-size: 0; width: 60%;
+  margin: 0 auto;
+  box-shadow: 0 0 12px rgba(0,0,0,0.8);
+}
+div#quad figure {
+  margin: 0; width: 50%;
+  height: auto; transition: 1s;
+  display: inline-block;
+  position: relative; overflow: hidden;
+}
+div#quad figure:hover { cursor: pointer; z-index: 4; }
+div#quad figure img { width: 100%; height: auto; }
+div#quad figure:nth-child(1) { transform-origin: top left; }
+div#quad figure:nth-child(2) { transform-origin: top right; }
+div#quad figure:nth-child(3) { transform-origin: bottom left; }
+div#quad figure:nth-child(4) { transform-origin: bottom right; }
+div#quad figure figcaption {
+  margin: 0; opacity: 0;
+  background: rgba(0,0,0,0.3);
+  color: #fff; padding: .3rem;
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: 0; width: 100%;
+	transition: 1s 1s opacity;
+}
+.expanded { transform: scale(2); z-index: 5;  }
+div#quad figure.expanded figcaption { opacity: 1; }
+div.full figure:not(.expanded) { pointer-events: none; }
+    </style>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+  <div id="quad">
+
+  <figure>
+  <img src="C:\MyHTMLHomeWork\contents_page_project\개발자들 컨텐츠 웹 이미지\프린팅 이미지\공룡\1.jpg" alt="rose-red-wine">
+  <figcaption>공룡1</figcaption>
+  </figure>
+  <figure>
+    <img src="C:\MyHTMLHomeWork\contents_page_project\개발자들 컨텐츠 웹 이미지\프린팅 이미지\공룡\2.jpg" alt>
+    <figcaption>공룡2</figcaption>
+  </figure>
+  <figure>
+    <img src="C:\MyHTMLHomeWork\contents_page_project\개발자들 컨텐츠 웹 이미지\프린팅 이미지\공룡\3.jpg" alt>
+    <figcaption>공룡3</figcaption>
+  </figure>
+  <figure>
+    <img src="C:\MyHTMLHomeWork\contents_page_project\개발자들 컨텐츠 웹 이미지\프린팅 이미지\공룡\4.jpg" alt>
+    <figcaption>공룡4</figcaption>
+  </figure>
+  <figure>
+    <img src="C:\MyHTMLHomeWork\contents_page_project\개발자들 컨텐츠 웹 이미지\프린팅 이미지\그루트\1.jpg" alt>
+    <figcaption>그루트1</figcaption>
+  </figure>
+  <figure>
+    <img src="C:\MyHTMLHomeWork\contents_page_project\개발자들 컨텐츠 웹 이미지\프린팅 이미지\그루트\2.jpg" alt>
+    <figcaption>그루트24</figcaption>
+  </figure>
+  <figure>
+    <img src="C:\MyHTMLHomeWork\contents_page_project\개발자들 컨텐츠 웹 이미지\프린팅 이미지\사진\1.jpg" alt>
+    <figcaption>인물사진1</figcaption>
+  </figure>
+  <figure>
+    <img src="C:\MyHTMLHomeWork\contents_page_project\개발자들 컨텐츠 웹 이미지\프린팅 이미지\사진\2.jpg" alt>
+    <figcaption>인물사진2</figcaption>
+  </figure>
+  <figure>
+    <img src="C:\MyHTMLHomeWork\contents_page_project\개발자들 컨텐츠 웹 이미지\프린팅 이미지\사진\3.jpg" alt>
+    <figcaption>인물사진3</figcaption>
+  </figure>
+  <figure>
+    <img src="C:\MyHTMLHomeWork\contents_page_project\개발자들 컨텐츠 웹 이미지\프린팅 이미지\스파이더맨\1.jpg" alt>
+    <figcaption>스파이더맨1</figcaption>
+  </figure>
+  <figure>
+    <img src="C:\MyHTMLHomeWork\contents_page_project\개발자들 컨텐츠 웹 이미지\프린팅 이미지\스파이더맨\2.jpg" alt>
+    <figcaption>스파이더맨2</figcaption>
+  </figure>
+  <figure>
+    <img src="C:\MyHTMLHomeWork\contents_page_project\개발자들 컨텐츠 웹 이미지\프린팅 이미지\스파이더맨\3.jpg" alt>
+    <figcaption>스파이더맨3</figcaption>
+  </figure>
+  <figure>
+    <img src="C:\MyHTMLHomeWork\contents_page_project\개발자들 컨텐츠 웹 이미지\프린팅 이미지\스파이더맨\4.jpg" alt>
+    <figcaption>스파이더맨4</figcaption>
+  </figure>
+  <figure>
+    <img src="C:\MyHTMLHomeWork\contents_page_project\개발자들 컨텐츠 웹 이미지\프린팅 이미지\스파이더맨\5.jpg" alt>
+    <figcaption>스파이더맨5</figcaption>
+  </figure>
+  <figure>
+    <img src="C:\MyHTMLHomeWork\contents_page_project\개발자들 컨텐츠 웹 이미지\프린팅 이미지\스파이더맨\6.jpg" alt>
+    <figcaption>스파이더맨6</figcaption>
+  </figure>
+  <figure>
+    <img src="C:\MyHTMLHomeWork\contents_page_project\개발자들 컨텐츠 웹 이미지\프린팅 이미지\안경\1.jpg" alt>
+    <figcaption>안경1</figcaption>
+  </figure>
+  <figure>
+    <img src="C:\MyHTMLHomeWork\contents_page_project\개발자들 컨텐츠 웹 이미지\프린팅 이미지\안경\2.jpg" alt>
+    <figcaption>안경2</figcaption>
+  </figure>
+  <figure>
+    <img src="C:\MyHTMLHomeWork\contents_page_project\개발자들 컨텐츠 웹 이미지\프린팅 이미지\얼굴\1.jpg" alt>
+    <figcaption>얼굴1</figcaption>
+  </figure>
+  <figure>
+    <img src="C:\MyHTMLHomeWork\contents_page_project\개발자들 컨텐츠 웹 이미지\프린팅 이미지\얼굴\2.jpg" alt>
+    <figcaption>안경2</figcaption>
+  </figure>
+  <figure>
+    <img src="C:\MyHTMLHomeWork\contents_page_project\개발자들 컨텐츠 웹 이미지\프린팅 이미지\피카츄\1.jpg" alt>
+    <figcaption>피카츄1</figcaption>
+  </figure>
+  <figure>
+    <img src="C:\MyHTMLHomeWork\contents_page_project\개발자들 컨텐츠 웹 이미지\프린팅 이미지\피카츄\2.jpg" alt>
+    <figcaption>피카츄2</figcaption>
+  </figure>
+  <figure>
+    <img src="C:\MyHTMLHomeWork\contents_page_project\개발자들 컨텐츠 웹 이미지\프린팅 이미지\피카츄\3.jpg" alt>
+    <figcaption>피카츄3</figcaption>
+  </figure>
+
+
+
+
+
+</div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <script src="imageview.js"></script>
+
+</body>
+</html>
